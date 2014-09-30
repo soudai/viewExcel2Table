@@ -129,7 +129,7 @@ class PHPExcel_Worksheet_SheetView
 	 * @return PHPExcel_Worksheet_SheetView
 	 */
 	public function setZoomScaleNormal($pValue = 100) {
-		if (($pValue >= 1) || is_null($pValue)) {
+		if (($pValue >= 0) || is_null($pValue)) {
 			$this->_zoomScaleNormal = $pValue;
 		} else {
 			throw new PHPExcel_Exception("Scale must be greater than or equal to 1.");
