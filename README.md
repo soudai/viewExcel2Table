@@ -16,5 +16,5 @@ Excelファイルの配置場所
 表示するExcelの列
 指定した順に表示する
 
-##doorKeeperの参加者一覧をダウンロードする場合
+## doorKeeperの参加者一覧をダウンロードする場合
 [getDoorkeeperExcel](https://github.com/soudai/getDoorkeeperExcel) 
